@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.searchbox{
+  position: absolute;
+  top: 58%;
+  left: 40%;
+  height: 50px;
+  
+  border-radius: 40px solid red;
+}
+.suman{
+  margin: 10px;
+  padding: 10px;
+}
+.navbar {
+    position: sticky;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(235, 241, 236);
+}
+section{
+    padding: 10px;
+}
+.maxwidth {
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+.navbar .maxwidth {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu li a {
+  color: rgb(27, 182, 40);
+  font-size: 18px;
+  font-weight: 500px;
+  margin-left: 25px;
+}
+.home {
+  display: flex;
+  background: url("/banner1.jpg")
+    no-repeat center;
+  height: 100vh;
+  color: azure;
+  min-height: 500px;
+  
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.home .homecontent .text1{
+    font-size: 20px;
+}
+.home .homecontent .text2{
+    font-size: 50px;
+    font-weight: 500;
+    margin: -3px;
+}
+.home .homecontent .text3{
+    font-size: 30px;
+}
+.home .homecontent .text4{
+    font-size: 20px;
+}
+.about{
+    font-family: fantasy;
+}
+.about .title{
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+}
+.about .aboutcontent .left img{
+    height: 300px;
+    width: 320px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.about .aboutcontent .right img{
+    height: 300px;
+    width: 320px;
+    position: absolute;
+    top: 113%;
+    left: 39%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.about .aboutcontent .rght img{
+    height: 300px;
+    width: 320px;
+    position: absolute;
+    top: 113%;
+    left: 70%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.about .aboutcontent .lft img{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 175%;
+   left: 10%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.about .aboutcontent .let img{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 175%;
+    left: 40%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.about .aboutcontent .lef img{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 175%;
+    left: 70%;
+    object-fit: cover;
+  
+}
+.container p{
+margin-top: 100px;
+  height: 200px;
+  width: 400px;
+  border: 2px solid red;
+}
+.review h1{
+  position: absolute;
+  text-align: center;
+  left: 45%;
+  top: 170%;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.port{
+    float: right;
+    color: chartreuse;
+    font-size: 20px;
+}
+.hire{
+    height: 20px;
+    background: rgb(165, 147, 147);
+    width: 40px;
+    border:2px solid black;
+    color: blanchedalmond;
+    border-radius: 5px;
+    margin: 100px;
+    padding: 2px;
+}
+.columnright{
+position: absolute;
+top: 800px;
+left: 600px;
+}
